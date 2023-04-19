@@ -1,0 +1,6 @@
+can.log
+gui.log
+env/
+.idea/
+.vscode/
+__pycache__/

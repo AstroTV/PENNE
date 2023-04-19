@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16mm"
+   height="16mm"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="setup_encrypted.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.5458084"
+     inkscape:cx="7.3929708"
+     inkscape:cy="10.548507"
+     inkscape:window-width="1872"
+     inkscape:window-height="1016"
+     inkscape:window-x="48"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-114.71057,-110.37683)">
+    <path
+       id="rect234"
+       style="fill:none;fill-opacity:0.372679;stroke:#000000;stroke-width:0.919989;stroke-linecap:round"
+       d="m 119.24043,117.30969 h 7.46669 c 0.1699,0 0.30666,0.13098 0.30666,0.29369 v 4.25909 c 0,0.16271 -0.13676,0.29369 -0.30666,0.29369 h -7.46669 c -0.1699,0 -0.30666,-0.13098 -0.30666,-0.29369 v -4.25909 c 0,-0.16271 0.13676,-0.29369 0.30666,-0.29369 z" />
+    <path
+       id="path1008"
+       style="fill:none;fill-opacity:0.372679;stroke:#000000;stroke-width:0.837614;stroke-linecap:round;stroke-dasharray:none"
+       d="m 120.35374,116.97326 a 2.6200355,2.9391184 0.04335786 0 1 2.62123,-2.9383 2.6200355,2.9391184 0.04335786 0 1 2.61884,2.93994" />
+    <g
+       id="g1117"
+       transform="matrix(0.19596065,0,0,0.17276233,103.77402,101.66754)"
+       inkscape:export-filename="door_unlock_button.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       style="fill:#000000;fill-opacity:0.996818">
+      <path
+         id="path1011"
+         style="fill:#000000;fill-opacity:0.996818;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-dasharray:none"
+         d="m 96.497477,103.85616 c -1.008091,-0.40301 -1.754999,-1.17171 -2.147655,-2.08869 -0.392653,-0.91699 -0.431051,-1.982291 -0.02212,-2.978548 0.817846,-1.992505 3.115277,-2.954321 5.131461,-2.148275 2.016157,0.806049 2.987607,3.074729 2.169777,5.067233 -0.40893,0.99626 -1.18775,1.73484 -2.116341,2.1236"
+         sodipodi:nodetypes="cssssc" />
+      <path
+         id="rect1013"
+         style="fill:#000000;fill-opacity:0.996818;stroke:#000000;stroke-linecap:round"
+         d="m 99.419887,103.83369 c 0,0 0.33184,0.77454 0.506574,1.69997 l 1.058329,5.60513 c 0.17473,0.92543 -0.69794,1.69996 -1.564904,1.69996 h -2.8946 c -0.866959,0 -1.739643,-0.77453 -1.564908,-1.69996 l 1.058333,-5.60513 c 0.174735,-0.92543 0.506574,-1.69997 0.506574,-1.69997"
+         sodipodi:nodetypes="cssssssc" />
+    </g>
+    <rect
+       style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:2.06501;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.638701;paint-order:normal"
+       id="rect2623"
+       width="13.934989"
+       x="115.74307"
+       y="111.40933"
+       height="13.934986" />
+  </g>
+</svg>

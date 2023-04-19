@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="28.9755mm"
+   height="2.741334mm"
+   viewBox="0 0 28.975499 2.741334"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   sodipodi:docname="brake_lights_on.svg"
+   inkscape:export-filename="car_chassis.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.190875,-297.77624)"><path
+       style="fill:none;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none"
+       d="m 46.394772,297.96285 0.504793,1.92863 3.430913,0.45725 0.195832,-1.68715 z"
+       id="path1350"
+       inkscape:export-filename="brake_lights_off.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><path
+       style="fill:none;stroke:#000000;stroke-width:0.300001;stroke-dasharray:none"
+       d="m 74.962478,297.96285 -0.504793,1.92863 -3.430913,0.45725 -0.195831,-1.68715 z"
+       id="path1352"
+       inkscape:export-filename="brake_lights_on.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /></g></svg>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="60.000004mm"
+   height="60.000008mm"
+   viewBox="0 0 60.000003 60.000007"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="steering_wheel.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-53.643057,-81.056551)">
+    <path
+       id="path117"
+       style="fill:#000000;stroke-width:0.15875"
+       d="M 83.64321,81.056551 A 30.000127,30.000127 0 0 0 53.643057,111.05671 30.000127,30.000127 0 0 0 83.64321,141.05656 30.000127,30.000127 0 0 0 113.64306,111.05671 30.000127,30.000127 0 0 0 83.64321,81.056551 Z m 0,5.99997 A 24.000102,24.000102 0 0 1 107.64308,111.05671 24.000102,24.000102 0 0 1 83.64321,135.05659 24.000102,24.000102 0 0 1 59.643026,111.05671 24.000102,24.000102 0 0 1 83.64321,87.056521 Z"
+       inkscape:transform-center-x="0.0041068734" />
+    <path
+       style="fill:#000000;stroke-width:10;stroke-dasharray:none"
+       d="M 42.432948,131.05634 H 164.85274"
+       id="path344"
+       inkscape:transform-center-x="-19.995678"
+       inkscape:transform-center-y="19.999784" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:3.48365;stroke-dasharray:none;stroke-opacity:1"
+       d="M 55.797166,111.05655 H 111.48895"
+       id="path1803"
+       inkscape:transform-center-x="0.0041073734"
+       inkscape:transform-center-y="-5.4999999e-06" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:3.98223;stroke-dasharray:none;stroke-opacity:1"
+       d="m 83.643058,112.1299 v 26.08412"
+       id="path2531"
+       inkscape:transform-center-x="0.0041073734"
+       inkscape:transform-center-y="14.115404" />
+    <circle
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.40001;stroke-dasharray:none;stroke-opacity:1"
+       id="path3262"
+       cx="83.643066"
+       cy="111.05655"
+       inkscape:transform-center-x="0.0040989672"
+       inkscape:transform-center-y="-6.4277342e-06"
+       r="5.0629683" />
+  </g>
+</svg>

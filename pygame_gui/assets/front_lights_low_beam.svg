@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="29.199034mm"
+   height="13.518303mm"
+   viewBox="0 0 29.199034 13.518303"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   sodipodi:docname="front_lights_high_beam.svg"
+   inkscape:export-filename="car_chassis.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-44.55076,-226.82176)"><path
+       style="fill:#fff6d5;stroke:#000000;stroke-width:0.299992;stroke-dasharray:none"
+       d="m 45.954093,238.95142 1.319645,-2.07279 6.160432,-0.24647 -6.339624,3.52036 z"
+       id="path1356"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="front_lights_low_beam.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><path
+       style="fill:#fff6d5;stroke:#000000;stroke-width:0.299992;stroke-dasharray:none"
+       d="m 72.608162,238.95142 -1.319645,-2.07279 -6.160432,-0.24647 6.339624,3.52036 z"
+       id="path1418"
+       sodipodi:nodetypes="ccccc" /></g></svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="6.2024994mm"
+   height="92.022255mm"
+   viewBox="0 0 6.2024994 92.022255"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   sodipodi:docname="right_blinkers_on.svg"
+   inkscape:export-filename="car_chassis.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-68.003836,-237.93725)"><path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.300007;stroke-dasharray:none"
+       d="m 72.018977,327.8565 -0.525144,1.90155 1.52048,-0.34321 0.927758,-1.90268 z"
+       id="path1288" /><path
+       style="fill:#ffff00;stroke:#000000;stroke-width:0.300007;stroke-dasharray:none"
+       d="m 69.456858,238.17266 -1.214249,1.24393 3.56976,2.18184 z"
+       id="path1416"
+       sodipodi:nodetypes="cccc"
+       inkscape:export-filename="right_blinkers_off.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /></g></svg>

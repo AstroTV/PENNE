@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.2771521mm"
+   height="30.605228mm"
+   viewBox="0 0 9.277152 30.605228"
+   version="1.1"
+   id="svg5"
+   inkscape:export-filename="shift_lever_p.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="shift_lever_d.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.9073846"
+     inkscape:cx="13.68101"
+     inkscape:cy="57.981425"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-86.880431,-72.714606)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0.4;stroke:#000000;stroke-width:0.97565"
+       id="rect3292"
+       width="8.3015022"
+       height="29.629578"
+       x="87.368256"
+       y="73.202431"
+       rx="1.3779416"
+       ry="1.0793891" />
+    <rect
+       style="fill:#00ff00;stroke:none;stroke-width:1.25059"
+       id="rect5072"
+       width="8.1597586"
+       height="8.0657959"
+       x="87.398201"
+       y="95.148407"
+       rx="1.564908"
+       ry="1.5615469" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.97565"
+       id="rect4899"
+       width="8.3015022"
+       height="29.629578"
+       x="87.368256"
+       y="73.202431"
+       rx="1.3779416"
+       ry="1.0793891" />
+    <path
+       d="m 91.503178,75.474845 q 0.794148,0 1.156694,0.345282 0.3683,0.339527 0.3683,0.938015 0,0.356791 -0.149622,0.673299 -0.149622,0.310754 -0.500658,0.500659 -0.345282,0.189905 -0.94377,0.189905 h -0.374056 v 1.461692 h -0.868958 v -4.108852 z m -0.04604,0.713583 h -0.397074 v 1.219995 h 0.287735 q 0.3683,0 0.581224,-0.143867 0.218678,-0.149623 0.218678,-0.47764 0,-0.598488 -0.690563,-0.598488 z"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.25;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.179834"
+       id="path5061" />
+    <path
+       d="m 91.296011,82.668213 q 0.840184,0 1.237259,0.304999 0.402828,0.304999 0.402828,0.926505 0,0.281981 -0.109339,0.494904 -0.103584,0.207169 -0.28198,0.356792 -0.172641,0.143867 -0.374055,0.235942 l 1.208486,1.78971 h -0.966789 l -0.978298,-1.576786 h -0.46613 v 1.576786 h -0.868959 v -4.108852 z m -0.0633,0.713582 h -0.264716 v 1.110656 h 0.28198 q 0.431602,0 0.615753,-0.143867 0.189905,-0.143867 0.189905,-0.425848 0,-0.293489 -0.201414,-0.414337 -0.19566,-0.126604 -0.621508,-0.126604 z"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.25;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.179834"
+       id="path5063" />
+    <path
+       d="M 93.301522,93.970432 H 92.19662 l -1.789709,-3.107534 h -0.02302 q 0.01151,0.293489 0.02302,0.586978 0.01726,0.29349 0.02877,0.586979 v 1.933577 h -0.776884 v -4.108851 h 1.099146 l 1.783956,3.078761 h 0.01726 q -0.0058,-0.287735 -0.01726,-0.569714 -0.01151,-0.28198 -0.02302,-0.563961 v -1.945086 h 0.782639 z"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.25;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.179834"
+       id="path5065" />
+    <path
+       d="m 93.275625,99.069092 q 0,1.041598 -0.592733,1.571028 -0.586979,0.52368 -1.651597,0.52368 h -1.162448 v -4.108852 h 1.289051 q 0.644526,0 1.116411,0.230188 0.477639,0.230188 0.736601,0.679054 0.264715,0.443112 0.264715,1.104902 z m -0.903487,0.02302 q 0,-0.684808 -0.299244,-1.001317 -0.299243,-0.322263 -0.868959,-0.322263 h -0.46613 v 2.675938 h 0.374055 q 1.260278,0 1.260278,-1.352358 z"
+       style="font-weight:bold;font-size:8.46667px;line-height:1.25;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;stroke-width:0.179834"
+       id="path5067"
+       inkscape:export-filename="shift_lever_n.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>

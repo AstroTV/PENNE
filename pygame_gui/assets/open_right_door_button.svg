@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="7.1676025mm"
+   height="11.28334mm"
+   viewBox="0 0 7.1676025 11.28334"
+   version="1.1"
+   id="svg23071"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview23073"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" /><defs
+     id="defs23068" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-110.80337,-148.83595)"><path
+       id="path25725"
+       style="fill:#ffffff;fill-opacity:0.404563;stroke:none;stroke-width:0.941513;stroke-linecap:round;stroke-dasharray:none"
+       d="m 115.79824,154.35657 v 3.1397 c 0,1.11931 -0.90111,2.02041 -2.02041,2.02041 h -0.56986 c -1.11931,0 -2.02041,-0.9011 -2.02041,-2.02041 v -6.30785 c 0,-1.11247 0.9011,-2.01357 2.02041,-2.01357 h 0.56986 c 1.1193,0 2.02041,0.9011 2.02041,2.02041 v 3.15051"
+       sodipodi:nodetypes="csssscsscc"
+       inkscape:export-filename="close_left_door_button.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><path
+       id="path24579"
+       style="fill:none;fill-opacity:0.350034;stroke:#000000;stroke-width:0.941513;stroke-linecap:round;stroke-dasharray:none"
+       d="m 116.00861,154.45932 -0.12381,-1.77009 v -1.36212 m 0,0 c 0,-1.11931 -0.9011,-2.02041 -2.02041,-2.02041 h -0.56985 c -1.11931,0 -2.02041,0.9011 -2.02041,2.02041 m 0,0 v 3.27968 m 0,1.06913 v 1.9522 c 0,1.1193 0.9011,2.02041 2.02041,2.02041 h 0.56985 c 1.11931,0 2.02041,-0.90111 2.02041,-2.02041 v -1.9522"
+       sodipodi:nodetypes="ccccssccccssssc"
+       inkscape:export-filename="open_right_door_button.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" /><path
+       style="fill:#000000;stroke:#000000;stroke-width:0.267283px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 115.71604,151.77142 c 0,0 -0.75265,-0.53457 -2.16859,-0.53457 -1.39664,0 -2.16857,0.53457 -2.16857,0.53457 l 0.47083,-2.05343 1.6569,-0.49529 1.37581,0.13947 0.49744,0.6087 z"
+       id="path24581"
+       sodipodi:nodetypes="cscccccc" /><path
+       id="path24583"
+       style="stroke:#000000;stroke-width:0.219917;stroke-linecap:round"
+       inkscape:transform-center-x="-0.085775261"
+       inkscape:transform-center-y="-0.0035872099"
+       d="m 116.52184,154.20486 0.29381,-0.0876 0.31775,-0.12838 -0.11632,-0.25301 -0.31772,0.12838 -0.29382,0.0876 z m 0.74202,0.0543 0.50718,-0.71453 -0.87294,-0.0818 z"
+       sodipodi:nodetypes="ccccccccccc" /></g></svg>
