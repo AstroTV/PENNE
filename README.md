@@ -1,6 +1,6 @@
 # PENNE - P.A.S.T.A Emulator with No Need for hardware E.C.U.s
 
-![Logo of the PENNE project](/documentation/penne_logo/penne_logo_with_hole.png "Penne Logo")
+![Logo of the PENNE project](penne_logo_with_hole.png "Penne Logo")
 
 
 This project is based on the [Toyota PASTA Framework](https://github.com/pasta-auto). The goal was to create a virtual instance of the testbed with possibilities to gradually improve the security of the system from a bare metal basis.
