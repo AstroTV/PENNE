@@ -53,29 +53,24 @@
  * Struct that holds a CAN message
  */
 typedef struct can_message_t {
-    size_t id;
-    unsigned char length;
-    unsigned char buffer[64];
+  size_t id;
+  unsigned char length;
+  unsigned char buffer[64];
 } can_message_t;
 
 /**
  * Struct for the definition of repeated CAN messages that are sent from the ECU
  */
 typedef struct msg_def_t {
-    unsigned int id;
-    unsigned int dlc;
-    bool enb;
-    unsigned int freq;
+  unsigned int id;
+  unsigned int dlc;
+  bool enb;
+  unsigned int freq;
 } msg_def_t;
-
-extern bool b_100_hz;
-extern bool b_20_hz;
-extern bool b_10_hz;
-extern bool b_2_hz;
 
 extern long can_msg_timings_receive[];
 extern long can_msg_timings_send[];
-extern unsigned int can_reverence_timings[];
+extern int can_reverence_timings[];
 
 extern bool gateway_read_whitelist[];
 extern bool gateway_write_whitelist[];
@@ -112,30 +107,6 @@ ssize_t read_can(can_message_t *msg, int tx_socket);
  * @return
  */
 int write_can(can_message_t msg, int tx_socket);
-
-/**
- * Callback function for the 100Hz timer
- * Sends all the CAN messages that were defined with a 10ms interval
- */
-void can_write_100_hz_msgs();
-
-/**
- * Callback function for the 20Hz timer
- * Sends all the CAN messages that were defined with a 50ms interval
- */
-void can_write_20_hz_msgs();
-
-/**
- * Callback function for the 10Hz timer
- * Sends all the CAN messages that were defined with a 100ms interval
- */
-void can_write_10_hz_msgs();
-
-/**
- * Callback function for the 2Hz timer
- * Sends all the CAN messages that were defined with a 500ms interval
- */
-void can_write_2_hz_msgs();
 
 int send_can_message(msg_def_t msg);
 

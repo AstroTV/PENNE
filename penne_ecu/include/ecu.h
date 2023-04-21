@@ -1,14 +1,19 @@
 #ifndef PENNE_ECU_H
 #define PENNE_ECU_H
+
 #include "can.h"
 #include <signal.h>
 
 /**
  * The 4 different ECU types that are supported by this simulator
  */
-typedef enum { POWERTRAIN, CHASSIS, BODY, GATEWAY, OBSERVER } ecu_type_t;
+typedef enum {
+  POWERTRAIN, CHASSIS, BODY, GATEWAY, OBSERVER
+} ecu_type_t;
 
-typedef enum { OK, BAD_VALUE, BAD_TIMING, BAD_CAN_ID } observer_code_t;
+typedef enum {
+  OK, BAD_VALUE, BAD_TIMING, BAD_CAN_ID
+} observer_code_t;
 
 typedef enum {
   NONE,
@@ -105,14 +110,7 @@ extern ecu_type_t ecu_number;
 extern ecu_data_t ecu_data, ecu_data_old;
 
 extern pthread_mutex_t gateway_lock;
-
-/**
- * Callback function for the timer, which calls the correct function depending on the elapsed interval
- * @param sig unused
- * @param si siginfo which stores the si_value.sival_ptr that can be used to determine which timer elapsed (100Hz, 20Hz, 10Hz, 2Hz)
- * @param uc unused
- */
-void timer_handler(int sig, siginfo_t *si, void *uc);
+extern long last_observer_warning;
 
 /**
  * Defines the repeated CAN messages that are sent from the ECU and calls the timer setup routine

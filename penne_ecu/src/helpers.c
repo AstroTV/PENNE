@@ -13,11 +13,6 @@
 
 sci_console_t sci_console;
 
-timer_t timer_100_hz;
-timer_t timer_20_hz;
-timer_t timer_10_hz;
-timer_t timer_2_hz;
-
 int serial_port;
 
 long millis() {
@@ -28,7 +23,7 @@ long millis() {
   clock_gettime(CLOCK_REALTIME, &spec);
 
   s = spec.tv_sec;
-  ms = (long)round(spec.tv_nsec / 1.0e6); // Convert nanoseconds to milliseconds
+  ms = (long) round(spec.tv_nsec / 1.0e6); // Convert nanoseconds to milliseconds
   if (ms > 999) {
     s++;
     ms = 0;
@@ -44,42 +39,12 @@ long micros() {
   clock_gettime(CLOCK_REALTIME, &spec);
 
   s = spec.tv_sec;
-  us = (long)round(spec.tv_nsec / 1.0e3); // Convert nanoseconds to microseconds
+  us = (long) round(spec.tv_nsec / 1.0e3); // Convert nanoseconds to microseconds
   if (us > 999999) {
     s++;
     us = 0;
   }
   return s * 1000000 + us;
-}
-
-int make_timer(timer_t *timer_id, int expire_ms, int interval_ms) {
-  struct sigevent te;
-  struct itimerspec its;
-  struct sigaction sa;
-  int sig_no = SIGRTMIN;
-
-  /* Set up signal handler. */
-  sa.sa_flags = SA_SIGINFO;
-  sa.sa_sigaction = timer_handler;
-  sigemptyset(&sa.sa_mask);
-  if (sigaction(sig_no, &sa, NULL) == -1) {
-    perror("sigaction");
-    return -1;
-  }
-
-  /* Set and enable alarm */
-  te.sigev_notify = SIGEV_SIGNAL;
-  te.sigev_signo = sig_no;
-  te.sigev_value.sival_ptr = timer_id;
-  timer_create(CLOCK_REALTIME, &te, timer_id);
-
-  its.it_interval.tv_sec = 0;
-  its.it_interval.tv_nsec = interval_ms * 1000000;
-  its.it_value.tv_sec = 0;
-  its.it_value.tv_nsec = expire_ms * 1000000;
-  timer_settime(*timer_id, 0, &its, NULL);
-
-  return 0;
 }
 
 int init_serial_port(char *port) {
@@ -128,11 +93,11 @@ int init_serial_port(char *port) {
   tty.c_iflag &= ~(IXON | IXOFF | IXANY); // Turn off s/w flow ctrl
 
   tty.c_oflag &= ~OPOST; // Prevent special interpretation of output bytes (e.g.
-                         // newline chars)
+  // newline chars)
   tty.c_oflag &= ~ONLCR; // Prevent conversion of newline to carriage return/line feed
 
   tty.c_cc[VTIME] = 0; // Wait for up to 1s (10 deciseconds), returning as soon
-                       // as any data is received.
+  // as any data is received.
   tty.c_cc[VMIN] = 0;
 
   // Set in/out baud rate to be 9600
@@ -222,7 +187,7 @@ void ecu_input_update(char *cmd) {
       if (c < 0x30 || c > 0x3F) {
         break;
       }
-      id = (id << 4) | (unsigned char)(c & 0x0F);
+      id = (id << 4) | (unsigned char) (c & 0x0F);
       cmd++;
     }
     if (i == 2) { // && id < EX_IO_MAX) { // ID normal, data processing
@@ -240,7 +205,7 @@ void ecu_input_update(char *cmd) {
         if (c < 0x30 || c > 0x3F) {
           break;
         }
-        d = (d << 4) | (unsigned char)(c & 0x0F);
+        d = (d << 4) | (unsigned char) (c & 0x0F);
         cmd++;
         f++;
       }
