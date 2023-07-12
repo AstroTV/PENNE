@@ -9,6 +9,7 @@ else
     echo "python3"
     echo "python3-virtualenv"
     echo "python3-pip"
+    echo "python3-tk"
     echo "libssl-dev"
     echo "libgtk-3-dev" 
     echo "build-essential"
