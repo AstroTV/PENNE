@@ -8,13 +8,31 @@ The idea of this project was influenced the [Toyota PASTA Framework](https://git
 By providing a fully virtualized testbed, the financial burden for the purchase of a physical testbed is removed.
 
 ## Getting Started
-To run the PENNE GUI, execute the **run.sh** script.
+The following steps were tested on a fresh install of Debian12
+
+First install git
+```
+sudo apt install git
+```
+
+Clone the Repository
+```
+git clone git@github.com:AstroTV/PENNE.git
+```
+
+Run the script to download the needed packages and execute the PENNE Testing Framework
+```
+cd PENNE
+./run.sh
+```
+
 
 The script builds the C project for the ECUs and tries to install the following packets with **apt**:
 - cmake
 - python3
 - python3-virtualenv
 - python3-pip
+- python3-tk
 - libssl-dev
 - libgtk-3-dev
 - build-essential
