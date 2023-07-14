@@ -2,7 +2,7 @@
 if [ -e /etc/debian_version ]
 then
     echo "Debian based OS found, the required packages will be installed automatically"
-        sudo apt install cmake python3 python3-virtualenv python3-pip python3-tk libssl-dev libgtk-3-dev build-essential libsdl2-dev socat at-spi2-core -y
+        sudo apt install cmake python3 python3-virtualenv python3-pip python3-tk libssl-dev libgtk-3-dev build-essential libsdl2-dev socat at-spi2-core libncurses5-dev -y
 else
     echo "Make sure the following packets are installed:"
     echo "cmake"
@@ -16,6 +16,7 @@ else
     echo "libsdl2-dev"
     echo "socat"
     echo "at-spi2-core"
+    echo "libncurses5-dev"
 fi
 
 echo "Building penne_ecu project"
